@@ -1,0 +1,6 @@
+@Parcial19200088_HostAddress = http://localhost:5183
+
+GET {{Parcial19200088_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
