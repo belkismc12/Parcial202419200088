@@ -11,11 +11,11 @@ namespace Parcial202419200088.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class JobOffersController : ControllerBase
+    public class JobOfferController : ControllerBase
     {
         private readonly Parcial202419200088DbContext _context;
 
-        public JobOffersController(Parcial202419200088DbContext context)
+        public JobOfferController(Parcial202419200088DbContext context)
         {
             _context = context;
         }
